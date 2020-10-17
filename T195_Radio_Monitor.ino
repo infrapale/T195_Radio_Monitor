@@ -195,7 +195,8 @@ void setup() {
   //              1234567890123456
   //uint8_t key[] ="Xyzabde123456789"; //exactly the same 16 characters/bytes on all nodes!
 
-  rf69.setEncryptionKey(key);
+
+  rf69.setEncryptionKey(rfm69_key);
   
   pinMode(LED, OUTPUT);
 
